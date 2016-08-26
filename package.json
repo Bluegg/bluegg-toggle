@@ -1,7 +1,7 @@
 {
-  "name": "bluegg-module-boilerplate",
+  "name": "bluegg-toggle",
   "version": "0.0.1",
-  "description": "Boilerplate for making NPM ready modules using ES2015 syntax",
+  "description": "Basic JS toggle on and off using data attributes",
   "main": "dist/index.js",
   "scripts": {
     "build": "node_modules/.bin/babel --plugins add-module-exports src/index.js > dist/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bluegg/bluegg-module-boilerplate.git"
+    "url": "git+https://github.com/Bluegg/bluegg-toggle.git"
   },
   "author": "bluegg",
   "license": "ISC",
